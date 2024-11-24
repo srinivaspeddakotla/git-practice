@@ -3,11 +3,11 @@
 #index (postion) starts from 0, size is 3
 FRUITS=("APPLE" "KIWI" "ORANGE") #Array
 
-echo "First fruit is: ${FRUIT[0]}"
+echo "First fruit is: ${FRUITS[0]}"
 
-echo "Second fruit is: ${FRUIT[1]}"
+echo "Second fruit is: ${FRUITS[1]}"
 
-echo "Third fruit is: ${FRUIT[2]}"
+echo "Third fruit is: ${FRUITS[2]}"
 
-echo "First fruit is: ${FRUIT[@]}"  # @ means all list will print
+echo "First fruit is: ${FRUITS[@]}"  # @ means all list will print
 
