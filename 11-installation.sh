@@ -3,7 +3,7 @@
 USERID=$(id -u)
 #echo "user ID is: $USERID"
 
-if ($USERID -ne 0)
+if [ $USERID -ne 0 ]
 then 
     echo "Please run this script with root privileges"
     exit 1
